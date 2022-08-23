@@ -1,0 +1,391 @@
+{
+	"info": {
+		"_postman_id": "0196a840-c668-4575-a94d-b0fe2c49f9b1",
+		"name": "MetGroup",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost/api-met-group/index.php/usuarios/registrar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\"  : \"met\",\r\n    \"password\"  : \"1234\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/api-met-group/index.php/usuarios/registrar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api-met-group",
+						"index.php",
+						"usuarios",
+						"registrar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/api-met-group/index.php/usuarios/mostrarusuarios",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/api-met-group/index.php/usuarios/mostrarusuarios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api-met-group",
+						"index.php",
+						"usuarios",
+						"mostrarusuarios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/api-met-group/index.php/usuarios/modificar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id_usuario\"    : \"1\",\r\n    \"username\"      : \"metgroup\",\r\n    \"password\"      : \"1234\",\r\n    \"estado_usuario\": \"Activo\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/api-met-group/index.php/usuarios/modificar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api-met-group",
+						"index.php",
+						"usuarios",
+						"modificar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/api-met-group/index.php/usuarios/eliminar",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id_usuario\"    : 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/api-met-group/index.php/usuarios/eliminar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api-met-group",
+						"index.php",
+						"usuarios",
+						"eliminar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/api-met-group/index.php/login/login_user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\"  : \"met\",\r\n    \"password\"  : \"1234\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/api-met-group/index.php/login/login_user",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api-met-group",
+						"index.php",
+						"login",
+						"login_user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/api-met-group/index.php/tiendas/registrar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre_tienda\"     : \"Nike Store\",\r\n    \"direccion_tienda\"  : \"Calle 1 # 29-87\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/api-met-group/index.php/tiendas/registrar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api-met-group",
+						"index.php",
+						"tiendas",
+						"registrar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/api-met-group/index.php/tiendas/mostrartiendas",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost/api-met-group/index.php/tiendas/mostrartiendas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api-met-group",
+						"index.php",
+						"tiendas",
+						"mostrartiendas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/api-met-group/index.php/tiendas/modificar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id_tienda\"          : \"2\",\r\n    \"nombre_tienda\"      : \"JV7 Store\",\r\n    \"direccion_tienda\"   : \"Calle 1 # 29-87\",\r\n    \"estado_tienda\"      : \"Activo\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/api-met-group/index.php/tiendas/modificar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api-met-group",
+						"index.php",
+						"tiendas",
+						"modificar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/api-met-group/index.php/tiendas/eliminar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id_tienda\"    : 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/api-met-group/index.php/tiendas/eliminar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api-met-group",
+						"index.php",
+						"tiendas",
+						"eliminar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/api-met-group/index.php/articulos/registrar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre_articulo\"       : \"Monitor\",\r\n    \"descripcion_articulo\"  : \"Articulo De Oficina Delicado\",\r\n    \"precio_articulo\"       : \"154000.00\",\r\n    \"id_tienda\"             : \"2\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/api-met-group/index.php/articulos/registrar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api-met-group",
+						"index.php",
+						"articulos",
+						"registrar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/api-met-group/index.php/articulos/mostrararticulos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/api-met-group/index.php/articulos/mostrararticulos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api-met-group",
+						"index.php",
+						"articulos",
+						"mostrararticulos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/api-met-group/index.php/articulos/modificar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id_articulo\"           : \"3\",\r\n    \"nombre_articulo\"       : \"Pantalla 14\",\r\n    \"descripcion_articulo\"  : \"Articulo De Oficina\",\r\n    \"precio_articulo\"       : \"174000.00\",\r\n    \"id_tienda\"             : \"2\",\r\n    \"estado_articulo\"       : \"Activo\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/api-met-group/index.php/articulos/modificar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api-met-group",
+						"index.php",
+						"articulos",
+						"modificar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/api-met-group/index.php/articulos/eliminar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id_articulo\"    : 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/api-met-group/index.php/articulos/eliminar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"api-met-group",
+						"index.php",
+						"articulos",
+						"eliminar"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
